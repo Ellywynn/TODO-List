@@ -1,0 +1,127 @@
+body{
+    font-size: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-size: 80px;
+    width: 500px;
+    background-color: pink;
+    border: 4px solid lightpink;
+    opacity: 78%;
+    color: white;
+}
+
+.input{
+    width: 800px;
+    margin: auto;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px 0 0 0;
+    color: lightpink;
+}
+
+#textInput{
+    width: 700px;
+    height: 40px;
+    font-size: 22px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-style: none none solid none; 
+    outline: none;
+    color: lightpink;
+}
+
+.addTaskBtn{
+    width: 60px;
+    height: 35px;
+    margin: auto;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: lightpink;
+    outline: none;
+    color:white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.tasks{
+    width: 1200px;
+    margin: 15px auto;
+    background-color: lightpink;
+}
+.task{
+    position: relative;
+}
+
+.tasks span{
+    position: relative;
+}
+
+.checkbox{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    background-color: lightpink;
+}
+
+.task{
+    display: block;
+    width: 1200px;
+    height: 40px;
+    overflow-wrap: normal;
+    display: block;
+}
+
+.closeTaskBtn{
+    width: 45px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    color: lightpink;
+}
+
+.btnSpan{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    left: 1145px;
+    top: -25px;
+    position: absolute;
+}
+
+.spanText{
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    width: 1200px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 10px 0;
+    color: pink;
+}
+
+a{
+    text-decoration: none;
+    color: firebrick;
+}
